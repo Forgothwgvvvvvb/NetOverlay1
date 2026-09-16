@@ -241,7 +241,7 @@ public class OverlayService extends Service {
         return new NotificationCompat.Builder(this, CHANNEL_ID)
                 .setContentTitle("Net Overlay активен")
                 .setContentText("Показывается статус сети поверх экрана")
-                .setSmallIcon(android.R.drawable.stat_sys_signal_4)
+                .setSmallIcon(android.R.drawable.stat_sys_data_bluetooth)
                 .setOngoing(true)
                 .build();
     }
